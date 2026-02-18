@@ -7,7 +7,7 @@ document.getElementById("button").addEventListener("click", (e) => {
           const doc = document.createElement("p");
           doc.innerText = `${e.id} : ${e.title}`;
           document.getElementById("todo").appendChild(doc);
-        }, 100 * (index + 1));
+        }, 50 * (index + 1));
       });
     });
 });
