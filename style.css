@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(117, 117, 117);
+  box-sizing: border-box;
+}
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  box-shadow:
+    inset 1px 1px 4px white,
+    2px 2px 4px black;
+}
+#todo {
+  width: max-content;
+  & p {
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+}
